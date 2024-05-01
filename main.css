@@ -16,6 +16,12 @@ body {
     font-family: 'Pacifico', cursive;    
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -38,7 +44,7 @@ body {
 }
 
 article {
-  margin-top: 20vh;
+  margin-top: 10vh;
   padding: 2vmin;
   width: 80vw;
   position: relative;
